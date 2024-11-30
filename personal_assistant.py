@@ -14,7 +14,7 @@ class Note:
     id: int
     title: str
     content: str
-    timestamp: str #а тут не надо что это дата и время задать?
+    timestamp: str
 
     @property
     def json(self) :
